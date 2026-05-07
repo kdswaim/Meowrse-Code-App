@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MorseCodeApp</string>
+    <string name="morse_playback_label">Morse Code Playback Service</string>
+
+    <!-- UI Components -->
+    <string name="main_title">Morse Code Converter</string>
+    <string name="input_label">Enter text to convert:</string>
+    <string name="input_hint">Type something here...</string>
+    <string name="convert_button">Convert</string>
+    <string name="play_input_button">Play Input</string>
+    <string name="output_label">Morse output:</string>
+    <string name="morse_hint">Your morse code will appear here</string>
+    <string name="play_output_button">Play Output</string>
+    <string name="settings_button">Settings</string>
+    <string name="help_button">Help</string>
+
+    <string name="output_title">Morse Output</string>
+    <string name="play_button">Play</string>
+    <string name="stop_button">Stop</string>
+    <string name="back_to_converter">← Back to Converter</string>
+    <string name="status_ready">Ready to play</string>
+    <string name="status_playing">Playing...</string>
+    <string name="status_finished">Finished</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="nothing_to_play">Nothing to play</string>
+
+    <string name="settings_back">← Back to App</string>
+
+    <!-- Help Page Strings -->
+    <string name="help_title">HELP DOCUMENTATION</string>
+    <string name="about_title">ABOUT THIS PROJECT</string>
+    <string name="about_text">This Morse Code Converter is an Android Studio project built in Kotlin. It features 4 Activities connected via intents, providing a modern and modular user experience. The app utilizes intent extras to pass data between activities and incorporates Fragments into its design for settings management.</string>
+
+    <string name="how_it_works_title">HOW IT WORKS</string>
+    <string name="how_it_works_text">1. Main Activity: Serving as the entry point, the Main Activity hub allows you to type messages and convert them to Morse code. From here, you can navigate to all other activities in the app.\n\n2. Secondary Activity: Tapping \'PLAY OUTPUT\', data is passed from Main via intent extras to this screen. It handles the real-time playback using your phone\'s flashlight, vibration, and audio tones.\n\n3. Playback Control: Use the dedicated PLAY and STOP buttons to manage the Morse output sequence.</string>
+
+    <string name="settings_persistence_title">SETTINGS &amp; PERSISTENCE</string>
+    <string name="settings_persistence_text">The Preferences Activity provides user-configurable settings with defaults that are persisted between sessions. It uses Fragments to manage settings like:\n\n- Dark Mode: Instantly switches the entire app to a dark color theme.\n- Beep Sound: Choose between Classic, Cat (3x louder!), or Robot tones.\n- Hardware Toggles: Independently control sound and vibration feedback.</string>
+</resources>
